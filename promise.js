@@ -11,3 +11,4 @@ let promise = new Promise(function(resolve, reject) {
 promise.then(function(result) {
     console.log(result);
 });
+
