@@ -28,3 +28,20 @@ console.log(typeof nothing)
 let phone=null;
 console.log(phone);
 console.log(typeof phone);
+
+// array
+
+let course =["python","mern","data science"];
+console.log(course)
+console.log(typeof course)
+
+// objects
+
+
+let students={
+    name:"razi",
+    age:19,
+    course:"python fullstack",
+}
+console.log(students)
+console.log(typeof students)
