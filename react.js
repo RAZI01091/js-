@@ -1,2 +1,11 @@
-let a ="Razi";
-console.log(a.split("").reverse().join())
+let num=-200
+
+if (num>=1){
+    console.log("positive")
+}else if(num<0)
+{
+    console.log("negative")
+}else{
+    console.log("zero")
+}
+
