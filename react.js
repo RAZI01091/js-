@@ -1,11 +1,14 @@
-let num=-200
+let num=90;
 
-if (num>=1){
-    console.log("positive")
-}else if(num<0)
-{
-    console.log("negative")
+if (num >=90){
+    console.log("A")
+}else if(num>=80){
+    console.log("B")
+}else if (num>=70){
+    console.log("C")
+}else if(num>=60){
+    console.log("D")
 }else{
-    console.log("zero")
+    console.log("fail")
 }
 
