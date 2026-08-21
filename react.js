@@ -1,5 +1,9 @@
-for (i=1;i<=20;i++){
-    if (i%2==0){
-        console.log(i)
-    }
-}
+let text = "apple banana apple orange banana apple mango orange banana banana";
+
+let words = text.split(" ");
+
+let maxCount = 0;
+
+let mostFrequent = "";
+
+console.log(words);
